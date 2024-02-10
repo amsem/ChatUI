@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div></div>
+    <div>
+        <div display="block">
+            <h3>Create your account</h3>
+        </div>
+        <form action="#" autocomplete="none">
+            <div>
+                <label data-testid="email-label" for="email">
+                    email
+                    <span>*</span>
+                </label>
+                <div></div>
+                <div>
+                    <input id="email" data-testid="email" required placeholder="Enter your email address" type="text" autocomplete="none">
+                </div>
+            </div>
+            <div>
+                <label data-testid="email-label" for="email">
+                    password
+                    <span>*</span>
+                </label>
+                <div></div>
+                <div>
+                    <input id="password" data-testid="password" required placeholder="Enter your password" type="password" autocomplete="none">
+                </div>
+            </div>
+            <div>
+                <label data-testid="email-label" for="email">
+                    password confirmation
+                    <span>*</span>
+                </label>
+                <div></div>
+                <div>
+                    <input id="password" data-testid="password" required placeholder="Confirm your password" type="password" autocomplete="none">
+                </div>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+        <button type="button">
+            <div>
+                <img src="https://ui-cdn.digitalocean.com/apps/registration-next/static/media/oauth-logo-google.420169f299402ff6bd627eeff16bad0d.svg">
+            </div>
+            Sign Up with Google
+        </button>
+    </div>
+</body>
+</html>
